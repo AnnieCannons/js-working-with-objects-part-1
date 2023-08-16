@@ -7,24 +7,14 @@ EXPECT! *
 
 /********************** Exercise 1 - Creating Objects **********************/
 
+
+//VIEW INDEX.HTML IN LIVE SERVER FOR ANSWERS
+
 let user1 = {
   name: "Rose Smith",
   age: 36,
   language: "English",
   programmer: true,
-};
-
-let user2 = {
-  name: "Hailey",
-  age: 26,
-  language: "English",
-  programmer: true,
-};
-
-let dino1 = {
-  name: "T-Rex",
-  species: "Tyrannosaurus Rex",
-  diet: "carnivore",
 };
 
 
