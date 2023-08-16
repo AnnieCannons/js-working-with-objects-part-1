@@ -57,19 +57,27 @@ let favRecipe = {
 };
 
 console.log(favRecipe)
+
 /********************** Exercise 2 - Accessing Values **********************/
 
 // Create a variable that holds the value of the "title" key in the "recipe" object you created above.
 
 // Log the value of that variable to the console.
+let favRecipeTitle = favRecipe.title;
+console.log(favRecipeTitle)
 
 // Create a variable that holds the value of the "name" key in the "user1" object from the previous exercise.
 
 // Log the value of that variable to the console.
+let userName = user1.name;
+console.log(userName)
 
 // WITHOUT creating a new variable, log the value of the "name" key in the "user1" object to the console.
+console.log(user1.name)
 
 // Log the value of the "age" key in the "user2" object to the console. You can create a new variable or log the value directly.
+console.log(user2.age)
+
 
 let user3 = {
   name: "Rose Smith",
@@ -79,10 +87,16 @@ let user3 = {
 };
 
 // Log the value of the "language" key in the "user3" object to the console.
+console.log(user3.language)
 
-// Put the value of the "language" key in the "user3" object into a new variable. Log the value of the first language in that array to the console using an index.
+// Put the value of the "language" key in the "user3" object into a new variable. 
+//Log the value of the first language in that array to the console using an index.
+let user3Language = user3.language;
+console.log(user3Language)
 
-// WITHOUT creating a new variable or accessing the one you just created, log the value of the first language in the "languages" array to the console. You'll have to use BOTH dot notation to access the "languages" array, and square bracket notation to access the first element in that array, all in the same line.
+// WITHOUT creating a new variable or accessing the one you just created, log the value of the first language in the "languages" array to the console. 
+//You'll have to use BOTH dot notation to access the "languages" array, and square bracket notation to access the first element in that array, all in the same line.
+console.log(user3.language[0])
 
 /********************** Exercise 3 - Adding Values **********************/
 
