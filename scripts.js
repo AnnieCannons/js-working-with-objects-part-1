@@ -14,6 +14,20 @@ let user1 = {
   programmer: true,
 };
 
+let user2 = {
+  name: "Hailey",
+  age: 26,
+  language: "English",
+  programmer: true,
+};
+
+let dino1 = {
+  name: "T-Rex",
+  species: "Tyrannosaurus Rex",
+  diet: "carnivore",
+};
+
+
 // Create a variable called "user2" that points to a new object. That object should hve the same keys as "user1", but different values, representing you—that is, it should have your name, your age, etc. Use the "user1" object above as a reference.
 
 // Log the variable's value in the console.
