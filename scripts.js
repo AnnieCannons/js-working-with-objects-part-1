@@ -14,13 +14,30 @@ let user1 = {
   programmer: true,
 };
 
+console.log(user1)
+
 // Create a variable called "user2" that points to a new object. That object should hve the same keys as "user1", but different values, representing you—that is, it should have your name, your age, etc. Use the "user1" object above as a reference.
 
 // Log the variable's value in the console.
+let user2 = {
+  name: "Shan Wolff",
+  age: 38,
+  language: "English",
+  programmer: true,
+};
+
+console.log(user2)
 
 // Create a variable called "dino1" that points to a new object. It should have the keys "name", "species", and "diet". The values should be "T-Rex", "Tyrannosaurus Rex", and "carnivore", respectively.
 
 // Log the variable's value in the console.
+let dino1 = {
+  name: "Shan Wolff",
+  species: "Aardonyx",
+  diet: "herbivore",
+};
+
+console.log(dino1)
 
 // Create an object to hold information on your favorite recipe. It should have properties for:
 
@@ -29,7 +46,17 @@ let user1 = {
 // Ingredients (an array of strings)
 
 // Log the object to the console.
+let favRecipe = {
+  title: "Quesidilla",
+  servings: "1",
+  ingredients: [
+    'Tortilla',
+    'Havarti Cheese',
+    'Ham',
+  ],
+};
 
+console.log(favRecipe)
 /********************** Exercise 2 - Accessing Values **********************/
 
 // Create a variable that holds the value of the "title" key in the "recipe" object you created above.
