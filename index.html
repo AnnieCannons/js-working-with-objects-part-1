@@ -52,7 +52,7 @@ let firstName = user1.name;
 
 console.log("User1: " , user1);
 console.log( "User2: " , user2)
-console.log("Recipe: " , recipe)
+console.log("Recipe: " , recipe  , recipe.ingredients)
 console.log("Dino1: " , dino1);
 
 console.log(' ');
@@ -67,13 +67,13 @@ let user3 = {
 
 let user3Language = user3.language.join(', ');
 
-console.log("Recipe Ingredients from a new variable: " +  ingredients1);
-console.log('User1 name with a new variable: ' + firstName);
+console.log("Recipe Ingredients from a new variable: " ,  ingredients1);
+console.log('User1 name with a new variable: ' , firstName);
 console.log('User1 name w/o a new variable: ' , user1.name);
 console.log('User2 age w/o a new variable: ' , user2.age);
 console.log('User3 language: ' , user3.language);
-console.log("User3's language key w/ a new variable: " + user3Language);
-console.log('User3 first language logged w/o a new variable: ' , user3.language[0]);
+console.log("User3's language key w/ a new variable: " , user3Language);
+console.log('User3 first language from language key  w/o a new variable: ' , user3.language[0]);
 
 console.log(' ');
 console.log('EXERCISE 3');
@@ -84,7 +84,7 @@ dino2.name = "Raptor";
 dino2.species = "Velociraptor";
 dino2.diet = "Carnivore";
 
-console.log(dino2);
+console.log('Dino2: ' , dino2);
 
 let dino3 = {
   name: "Raptor",
@@ -100,7 +100,7 @@ let dino4 = {
 
 dino4.diet = "Herbivore";
 
-console.log(dino4);
+console.log('Dino4: ' , dino4);
 
 console.log(' ');
 console.log('EXERCISE 4');
@@ -115,7 +115,7 @@ dino5.diet = "ombivore";
 
 console.log('Dino5: ' , dino5);
 dino5.name = "Sarah";
-console.log('Dino5: ' , dino5);
+console.log('Dino5 after name change: ' , dino5);
 
 let prettyGoodBook = {
   title: "The Hobbit",
