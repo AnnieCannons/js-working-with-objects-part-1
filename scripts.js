@@ -105,12 +105,17 @@ let dino2 = {};
 // ALL OF THE STEPS BELOW SHOULD BE DONE WITHOUT CHANGING THE CODE ABOVE.
 
 // Add a key-value pair to the above empty "dino2" object. The key should be "name", and the value should be "Raptor".
+dino2.name = "Raptor";
 
 // Add a key-value pair to the "dino2" object. The key should be "species", and the value should be "Velociraptor".
+dino2.species = "Velociraptor";
 
 // Add a key-value pair to the "dino2" object. The key should be "diet", and the value should be "carnivore".
+dino2.diet = "carnivore";
 
 // Log the "dino2" object to the console.
+console.log(dino2)
+
 
 let dino3 = {
   name: "Raptor",
@@ -120,12 +125,20 @@ let dino3 = {
 // ALL OF THE STEPS BELOW SHOULD BE DONE WITHOUT CHANGING THE CODE ABOVE.
 
 // Add a key-value pair to the "dino3" object. The key should be "species", and the value should be "Velociraptor".
+dino3.species = "Velociraptor";
 
-// Now create a dino4 object with the name and species keys. The values should be "Triceratops" and "Triceratops Horridus", respectively.
+// Now create a dino4 object with the name and species keys. 
+//The values should be "Triceratops" and "Triceratops Horridus", respectively.
+let dino4 = {
+  name: "Triceratops",
+  species: "Triceratops Horridus",
+};
 
 // Add a key-value pair to the "dino4" object. The key should be "diet", and the value should be "herbivore".
+dino4.diet = "herbivore";
 
 // Log the "dino4" object to the console.
+console.log(dino4)
 
 /********************** Exercise 4 - Changing Values **********************/
 
