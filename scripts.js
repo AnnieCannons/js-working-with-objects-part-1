@@ -151,12 +151,17 @@ let dino5 = {
 // ALL OF THE STEPS BELOW SHOULD BE DONE WITHOUT CHANGING THE CODE ABOVE.
 
 // Change the value of the "diet" key in the "dino5" object to "omnivore".
+dino5.diet = "omnivore";
 
 // Log the "dino5" object to the console.
+console.log(dino5)
 
 // Change the value of the "name" key in the "dino5" object to "Sarah".
+dino5.name ="Sarah";
 
 // Log the "dino5" object to the console.
+console.log(dino5)
+
 
 let prettyGoodBook = {
   title: "The Hobbit",
@@ -167,7 +172,11 @@ let prettyGoodBook = {
 // ALL OF THE STEPS BELOW SHOULD BE DONE WITHOUT CHANGING THE CODE ABOVE.
 
 // Change the value of the "price" key in the "prettyGoodBook" object to 12.99.
+prettyGoodBook.price = "12.99";
+console.log(prettyGoodBook)
 
 // Change the value of the "rating" key in the "prettyGoodBook" object to 5. (It's more than just pretty good!)
+prettyGoodBook.rating = "5";
 
 // Log the "prettyGoodBook" object to the console.
+console.log(prettyGoodBook)
