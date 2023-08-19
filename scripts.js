@@ -7,12 +7,16 @@ EXPECT! *
 
 /********************** Exercise 1 - Creating Objects **********************/
 
+
+//VIEW INDEX.HTML IN LIVE SERVER FOR ANSWERS
+
 let user1 = {
   name: "Rose Smith",
   age: 36,
   language: "English",
   programmer: true,
 };
+
 
 // Create a variable called "user2" that points to a new object. That object should hve the same keys as "user1", but different values, representing you—that is, it should have your name, your age, etc. Use the "user1" object above as a reference.
 
