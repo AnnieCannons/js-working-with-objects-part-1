@@ -13,10 +13,12 @@ let user1 = {
   language: "English",
   programmer: true,
 };
-const user2 = {name: "Taylor Lange",
-age: 28,
-language: "English",
-programmer: true,};
+const user2 = {
+  name: "Taylor Lange",
+  age: 28,
+  language: "English",
+  programmer: true,
+};
 
 // Create a variable called "user2" that points to a new object. That object should hve the same keys as "user1", but different values, representing you—that is, it should have your name, your age, etc. Use the "user1" object above as a reference.
 
@@ -24,9 +26,11 @@ programmer: true,};
 
 // Create a variable called "dino1" that points to a new object. It should have the keys "name", "species", and "diet". The values should be "T-Rex", "Tyrannosaurus Rex", and "carnivore", respectively.
 
-const dino1 = {name: "T-Rex",
+const dino1 = {
+name: "T-Rex",
 species: "Tyrannosaurus Rex",
-diet: "carnivore",};
+diet: "carnivore",
+};
 
 // Log the variable's value in the console.
 
@@ -36,9 +40,11 @@ diet: "carnivore",};
 // Servings (a number)
 // Ingredients (an array of strings)
 
-const recipe = {title: "Honey Lavender Cold Brew",
+const recipe = {
+  title: "Honey Lavender Cold Brew",
 servings: 4, 
-ingredients: ["ground coffee beans", "fresh lavender", "honey", "vanilla bean", "milk or creamer, to taste"]}
+ingredients: ["ground coffee beans", "fresh lavender", "honey", "vanilla bean", "milk or creamer, to taste"]
+};
 
 // Log the object to the console.
 
@@ -114,8 +120,10 @@ dino3.species = "Velociraptor";
 
 // Now create a dino4 object with the name and species keys. The values should be "Triceratops" and "Triceratops Horridus", respectively.
 
-let dino4 = {name: "Triceratops",
-species: "Triceratops Horridus",};
+let dino4 = {
+  name: "Triceratops",
+species: "Triceratops Horridus",
+};
 
 // Add a key-value pair to the "dino4" object. The key should be "diet", and the value should be "herbivore".
 
