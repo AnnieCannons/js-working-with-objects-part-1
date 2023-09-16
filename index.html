@@ -1,157 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript - Working With Objects - Part 1</title>
-    <script src="./scripts.js"></script>
-  </head>
-  <body></body>
-</html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript - Working With Objects - Part 1</title>
+  <script src="./scripts.js"></script>
+</head>
+
+<body>
 
 <!-- Run Live Server to see results -->
-<!-- This is the template I used to create a button with a function that held the assignments code and a trigger to print specific text to HTML and send logs to the console
 
-exercise #
-<button onclick="myFunction#()">Exercise#</button> // this creates a button
 
-<p id="exercise1"></p> // this is the id tag for where the text I want printed will go
+<!-- exercise 1 -->
 
-<script>
-
-function myFunction# () { // function tag 
-  
-let text; // this says there is a text variable and that variable will be defined later in the code
-
-code // this is where I put all the code but I could have also put the code directly in the js file and just referenced the tags here. 
-
-text = answer; // this is the text that will get printed
-
-console.log(answer); // this will console.log whatever I put the same way it does when we console.log in the js file. I can put as many console.logs as I want! They will show up in the order they are written.
-
-document.getElementById("exercise#").innerHTML = text; // this links the <p id=exercise#> tag so it is printed there in the HTML document
-}
-</script> -->
-
-<button onclick="myFunction1()">Click here to run the assignments in the console log!</button>
+<button onclick="myFunction1()">Exercise 1</button>
 <p id="exercise1"></p>
-<script>
-function myFunction1 () {
-let text;
-
-let user1 = {
-  name: "Rose Smith",
-  age: 36,
-  language: "English",
-  programmer: true,
-};
-let user2 = {
-  name: "Hailey",
-  age: 26,
-  language: "English",
-  programmer: true,
-};
-
-let dino1 = {
-  name: "T-Rex",
-  species: "Tyrannosaurus Rex",
-  diet: "carnivore",
-};
-
-let recipe = {
-  title: "PB&J",
-  servings: "could be shared but don't touch mine",
-  ingredients: ['peanut butter', 'jelly', 'bread' ],
-};
-
-text = "Open the console log with 'cmd + opt + I' to see the results!";
-
-console.log('EXERCISE 1');
-
-let ingredients1 = recipe.ingredients.join(', ');
-
-let firstName = user1.name;
-
-console.log("User1: " , user1);
-console.log( "User2: " , user2)
-console.log("Recipe: " , recipe  , recipe.ingredients)
-console.log("Dino1: " , dino1);
-
-console.log(' ');
-console.log('EXERCISE 2');
-
-let user3 = {
-  name: "Rose Smith",
-  age: 36,
-  language: ["English", "Spanish"],
-  programmer: true,
-};
-
-let user3Language = user3.language.join(', ');
-
-console.log("Recipe Ingredients from a new variable: " ,  ingredients1);
-console.log('User1 name with a new variable: ' , firstName);
-console.log('User1 name w/o a new variable: ' , user1.name);
-console.log('User2 age w/o a new variable: ' , user2.age);
-console.log('User3 language: ' , user3.language);
-console.log("User3's language key w/ a new variable: " , user3Language);
-console.log('User3 first language from language key  w/o a new variable: ' , user3.language[0]);
-
-console.log(' ');
-console.log('EXERCISE 3');
-
-let dino2 = {};
-
-dino2.name = "Raptor";
-dino2.species = "Velociraptor";
-dino2.diet = "Carnivore";
-
-console.log('Dino2: ' , dino2);
-
-let dino3 = {
-  name: "Raptor",
-  diet: "carnivore",
-};
-dino3.species = "Velociraptor";
-
-let dino4 = {
-  name: "Triceratops",
-  species: "Triceratops Horridus"
-}
-
-dino4.diet = "Herbivore";
-
-console.log('Dino4: ' , dino4);
-
-console.log(' ');
-console.log('EXERCISE 4');
-
-let dino5 = {
-  name: "Triceratops",
-  species: "Triceratops Horridus",
-  diet: "herbivore",
-};
-
-dino5.diet = "ombivore";
-
-console.log('Dino5: ' , dino5);
-dino5.name = "Sarah";
-console.log('Dino5 after name change: ' , dino5);
-
-let prettyGoodBook = {
-  title: "The Hobbit",
-  price: 14.99,
-  rating: 4.5,
-};
-
-prettyGoodBook.price = 12.99;
-prettyGoodBook.rating = 5 + " (It's more than just pretty good!)";
-
-console.log('PrettyGoodBook: ' , prettyGoodBook);
 
 
-document.getElementById("exercise1").innerHTML = text; 
-}
-</script>
+<!-- exercise 2 -->
+<button onclick="myFunction2()">Exercise 2</button>
+<p id="exercise2"></p>
 
 
+<!-- exercise 3 -->
+<button onclick="myFunction3()">Exercise 3</button>
+<p id="exercise3"></p>
+
+
+<!-- Exercise 4 -->
+
+<button onclick="myFunction4()">Exercise 4</button>
+<p id="exercise4"></p>
+
+</body>
+
+</html>
